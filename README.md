@@ -18,17 +18,17 @@ to find authoritative, up-to-date build and install instructions.
 
 2. Curl this Dockerfile:
 
-	curl -O https://raw.githubusercontent.com/joeduffy/dotnet-dockerfile/master/Dockerfile
+        curl -O https://raw.githubusercontent.com/joeduffy/dotnet-dockerfile/master/Dockerfile
 
 3. Build it:
 
-	docker build -t dotnet .
+        docker build -t dotnet .
 
    This will actually clone and build the .NET sources.
 
 4. Run it:
 
-	docker run -it dotnet
+        docker run -it dotnet
 
    The sources are available underneath /dotnet, and the binaries /dotnet/bin.
 
